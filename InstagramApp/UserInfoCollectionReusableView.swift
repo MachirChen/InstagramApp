@@ -1,0 +1,21 @@
+//
+//  UserInfoCollectionReusableView.swift
+//  InstagramApp
+//
+//  Created by Machir on 2021/9/18.
+//
+
+import UIKit
+
+class UserInfoCollectionReusableView: UICollectionReusableView {
+        
+    @IBOutlet weak var userAcountLabel: UILabel!
+    @IBOutlet weak var userImageView: UIImageView!
+    @IBOutlet weak var postCountLabel: UILabel!
+    @IBOutlet weak var followerCountLabel: UILabel!
+    @IBOutlet weak var followingCountLabel: UILabel!
+    @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var categoryLabel: UILabel!
+    @IBOutlet weak var userDescriptionLabel: UITextView!
+    @IBOutlet var btns: [UIButton]!
+}
